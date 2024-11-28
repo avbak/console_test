@@ -1,15 +1,12 @@
 1. Активировать VENV
-a) Win:
-  PS> `python -m venv venv`
-  PS> `.\venv\Scripts\activate`
-  (venv) PS> `python -m pip install -r requirements.txt`
+Win: `.\venv\Scripts\activate` или Unix/Mac: `source venv/bin/activate`
+  
+2. Установить зависимости (venv) `python -m pip install -r requirements.txt`
 
-b) Unix/Mac:
-  $ `python -m venv venv`
-  $ `source venv/bin/activate`
-  (venv) $ `python -m pip install -r requirements.txt`
+3. Поменять API ключ в файле pytest.ini
 
-2. Поменять API ключ в файле pytest.ini
+4. Поместить бинарные файлы проекта в папку project
 
-3. Поместить бинарные файлы проекта в папку project
-4. Запустить тесты командой `pytest` из корня директории int24test
+5. При запуске на Linux заменить путь к бинарным файлам в ./tests/funcs.py: `./project/OptimusMuneris.exe`
+
+5. Запустить тесты командой `pytest` из корня директории int24test
