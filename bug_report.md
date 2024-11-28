@@ -2,9 +2,12 @@
 ---
 
 ### 1. Блокирующая ошибка при запуске на Ubuntu [Linux]
+
 **Шаги:**
 1. Запустить приложение без аргументов
+
 **Ожидаемое поведение:** запуск приложения, вывод справки
+
 **Фактическое поведение:** ошибка `[PYI-3736:ERROR] Failed to load Python shared library '/tmp/_MEIJF1TqL/libpython3.12.so': dlopen: /lib/x86_64-linux-gnu/libm.so.6: version GLIBC_2.38 not found (required by /tmp/_MEIJF1TqL/libpython3.12.so)`
 
 ****Дополнительные комментарии:****
